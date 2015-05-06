@@ -1,0 +1,15 @@
+*.tap
+*.s#[0-9]
+*.s##
+*.b#[0-9]
+*.b##
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT

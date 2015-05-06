@@ -1,0 +1,2 @@
+DRC SAVE '/home/franc/Dropbox/eagle/Power-v3/power-v3.dru';
+RUN brd_to_dsn.ulp f;
