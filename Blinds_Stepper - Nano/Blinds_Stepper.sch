@@ -182,8 +182,6 @@
 <text x="18.288" y="4.699" size="0.8128" layer="21" font="vector" ratio="18">PWR IN</text>
 <text x="-24.13" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-24.13" y="11.43" size="1.27" layer="25">&gt;NAME</text>
-<hole x="15.24" y="3.81" drill="3.302"/>
-<hole x="-8.89" y="0" drill="3.302"/>
 </package>
 </packages>
 <symbols>
@@ -518,6 +516,7 @@
 <part name="A5" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="A6" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="A7" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="D1" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -589,6 +588,9 @@
 </instance>
 <instance part="A7" gate="P" x="99.06" y="45.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="102.362" y="44.577" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D1" gate="P" x="137.16" y="45.72" smashed="yes" rot="R180">
+<attribute name="VALUE" x="138.303" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -894,6 +896,18 @@
 <pinref part="U$2" gate="G$1" pin="A0"/>
 <wire x1="119.38" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <label x="114.3" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D13" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="D13"/>
+<wire x1="114.3" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<label x="114.3" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D1" gate="P" pin="P"/>
+<wire x1="134.62" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="129.54" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
