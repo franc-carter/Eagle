@@ -361,14 +361,21 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/SparkFun/SparkFun-Resistors.
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/SparkFun/SparkFun-Retired.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/SparkFun/SparkFun-RF.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/SparkFun/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/franc/Dropbox/esp8266modules.lbr"
 
 [Win_1]
+Type="Control Panel"
+Loc="378 167 977 566"
+State=1
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
 Loc="378 167 977 566"
-State=3
-Number=2
-File="ButtonMatrix.sch"
-View="-40.6022 23.7829 71.2161 77.0551"
+State=1
+Number=1
+File="ESP01 Breakout.sch"
+View="-98.1067 42.4747 24.0233 118.773"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -407,17 +414,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -40.6022 23.7829 71.2161 77.0551"
+Views=" 1: -98.1067 42.4747 24.0233 118.773"
 Sheet=1
 
-[Win_2]
+[Win_3]
 Type="Board Editor"
 Loc="378 167 977 566"
 State=1
-Number=1
-File="ButtonMatrix.brd"
-View="-1.41732 -1.87452 45.8673 69.1845"
-WireWidths=" 0 0.254 0.3048 0.6096 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.8128 1.016"
+Number=2
+File="ESP01 Breakout.brd"
+View="-4.96172 -1.22595 30.3667 42.3704"
+WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -455,12 +462,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
-
-[Win_3]
-Type="Control Panel"
-Loc="535 308 1134 707"
-State=1
-Number=0
 
 [Desktop]
 Screen="3600 1080"
